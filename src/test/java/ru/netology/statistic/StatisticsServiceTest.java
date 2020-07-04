@@ -8,7 +8,7 @@ class StatisticsServiceTest {
 
     StatisticsService service = new StatisticsService();
 
-    long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12, 1, 2, 0};
+    long[] incomesInBillions = {6, 12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12, 1, 2, 0};
     @Test
     void shouldfindMax() {
 
